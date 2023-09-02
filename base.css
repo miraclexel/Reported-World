@@ -412,3 +412,25 @@ iframe, .description, #context, img:not(#jumbo img, .avatar){
     position:fixed;
     top:100px;
 }
+
+
+/* media queries */
+
+@media screen and (max-width: 635px) {
+    #side-nav{
+        visibility:hidden;
+    }
+
+    #main{
+        padding-left:0;
+    }
+
+    #first-guide{
+        left:0;
+        width:100%;
+    }
+
+    #top-search input{
+        width: calc(100vw - 300px);
+    }
+}
